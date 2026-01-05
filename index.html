@@ -1,25 +1,137 @@
-From: <Saved by Blink>
-Snapshot-Content-Location: http://sQo5lMT5CUDsUcf:0dqicz1RxWJmcoz@localhost:44800/storage/emulated/0/index.html
-Subject: Luciano Caraballo | Desarrollo Web
-Date: Mon, 5 Jan 2026 12:37:18 -0300
-MIME-Version: 1.0
-Content-Type: multipart/related;
-	type="text/html";
-	boundary="----MultipartBoundary--eZIt4KTKC0IzZarPkkqUxS1TbYl73oapCOebNcGutB----"
-
-
-------MultipartBoundary--eZIt4KTKC0IzZarPkkqUxS1TbYl73oapCOebNcGutB----
-Content-Type: text/html
-Content-ID: <frame-D82D5FD67C173A6FB1858A9641CDF0AB@mhtml.blink>
-Content-Transfer-Encoding: binary
-Content-Location: http://sQo5lMT5CUDsUcf:0dqicz1RxWJmcoz@localhost:44800/storage/emulated/0/index.html
-
-<!DOCTYPE html><html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-d3eea9ee-75db-4e61-8c9e-7b6da9ab9ca0@mhtml.blink" />
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Luciano Caraballo | Desarrollo Web</title>
 
+<style>
+:root {
+  --bg: #020617;
+  --card: #0f172a;
+  --primary: #38bdf8;
+  --text: #e5e7eb;
+  --muted: #94a3b8;
+}
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at top, #1e293b, #020617);
+  color: var(--text);
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 90px 20px;
+}
+
+header h1 {
+  font-size: 3rem;
+  background: linear-gradient(90deg, var(--primary), #22d3ee);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+header p {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  color: var(--muted);
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 35px;
+  padding: 15px 40px;
+  background: linear-gradient(90deg, var(--primary), #22d3ee);
+  color: #020617;
+  border-radius: 40px;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: transform .2s, box-shadow .2s;
+}
+
+.btn:hover {
+  transform: scale(1.06);
+  box-shadow: 0 15px 40px rgba(56,189,248,.4);
+}
+
+/* SECTIONS */
+section {
+  max-width: 1100px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  border-left: 5px solid var(--primary);
+  padding-left: 15px;
+}
+
+/* CARDS */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 22px;
+}
+
+.card {
+  background: linear-gradient(180deg, #020617, var(--card));
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 20px 40px rgba(0,0,0,.6);
+  transition: transform .3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card h3 {
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: var(--muted);
+  font-size: .95rem;
+}
+
+/* SKILLS */
+.skill {
+  margin-bottom: 18px;
+}
+
+.bar {
+  background: #020617;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 6px;
+}
+
+.bar span {
+  display: block;
+  height: 10px;
+  background: linear-gradient(90deg, var(--primary), #22d3ee);
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 50px 20px;
+  color: var(--muted);
+  font-size: .95rem;
+}
+</style>
 </head>
 
 <body>
@@ -29,7 +141,9 @@ Content-Location: http://sQo5lMT5CUDsUcf:0dqicz1RxWJmcoz@localhost:44800/storage
   <p>Creo páginas web modernas que atraen clientes y venden tu idea</p>
 
   <!-- BOTÓN FUNCIONAL -->
-  <a class="btn" href="https://wa.me/59899879692?text=Hola%20quiero%20una%20p%C3%A1gina%20web" target="_blank">
+  <a class="btn"
+     href="https://wa.me/59899879692?text=Hola%20quiero%20una%20p%C3%A1gina%20web"
+     target="_blank">
      Quiero mi web
   </a>
 
@@ -66,24 +180,35 @@ Content-Location: http://sQo5lMT5CUDsUcf:0dqicz1RxWJmcoz@localhost:44800/storage
   </div>
 </section>
 
-<section>
+  <section>
   <h2>Proyectos</h2>
 
   <div class="grid">
-    <div class="card" style="opacity: 1; transform: translateY(0px); transition: 0.6s;">
+
+    <div class="card">
+      <h3>Cafetería Web</h3>
+      <p>
+        Página web moderna para cafetería, con diseño atractivo,
+        ideal para mostrar el menú, promociones y atraer clientes desde Instagram.
+      </p>
+    </div>
+
+    <div class="card">
       <h3>Página Web para Negocio</h3>
-      <p>Diseño profesional para presentar servicios y atraer clientes desde el primer vistazo.</p>
+      <p>
+        Diseño profesional pensado para presentar servicios,
+        generar confianza y convertir visitas en clientes.
+      </p>
     </div>
 
-    <div class="card" style="opacity: 1; transform: translateY(0px); transition: 0.6s;">
-      <h3>Landing Page Profesional</h3>
-      <p>Página de una sola vista ideal para vender una idea o mostrar un proyecto.</p>
-    </div>
-
-    <div class="card" style="opacity: 1; transform: translateY(0px); transition: 0.6s;">
+    <div class="card">
       <h3>Portfolio Personal</h3>
-      <p>Web moderna para destacar habilidades y generar confianza.</p>
+      <p>
+        Web moderna para destacar habilidades,
+        proyectos y generar credibilidad frente a clientes.
+      </p>
     </div>
+
   </div>
 </section>
 
@@ -92,52 +217,17 @@ Content-Location: http://sQo5lMT5CUDsUcf:0dqicz1RxWJmcoz@localhost:44800/storage
   <br>Escribime y llevá tu idea a internet
 </footer>
 
+<script>
+document.querySelectorAll('.card').forEach((card, i) => {
+  card.style.opacity = 0;
+  card.style.transform = 'translateY(20px)';
+  setTimeout(() => {
+    card.style.transition = '0.6s';
+    card.style.opacity = 1;
+    card.style.transform = 'translateY(0)';
+  }, i * 150);
+});
+</script>
 
-
-
-</body></html>
-------MultipartBoundary--eZIt4KTKC0IzZarPkkqUxS1TbYl73oapCOebNcGutB----
-Content-Type: text/css
-Content-Transfer-Encoding: binary
-Content-Location: cid:css-d3eea9ee-75db-4e61-8c9e-7b6da9ab9ca0@mhtml.blink
-
-@charset "utf-8";
-
-:root { --bg: #020617; --card: #0f172a; --primary: #38bdf8; --text: #e5e7eb; --muted: #94a3b8; }
-
-* { margin: 0px; padding: 0px; box-sizing: border-box; font-family: system-ui, sans-serif; }
-
-body { background: radial-gradient(circle at center top, rgb(30, 41, 59), rgb(2, 6, 23)); color: var(--text); }
-
-header { text-align: center; padding: 90px 20px; }
-
-header h1 { font-size: 3rem; background-image: ; background-position-x: ; background-position-y: ; background-size: ; background-repeat: ; background-attachment: ; background-origin: ; background-color: ; background-clip: text; color: transparent; }
-
-header p { margin-top: 15px; font-size: 1.2rem; color: var(--muted); }
-
-.btn { display: inline-block; margin-top: 35px; padding: 15px 40px; background: linear-gradient(90deg, var(--primary), #22d3ee); color: rgb(2, 6, 23); border-radius: 40px; font-weight: 700; text-decoration: none; font-size: 1.1rem; transition: transform 0.2s, box-shadow 0.2s; }
-
-.btn:hover { transform: scale(1.06); box-shadow: rgba(56, 189, 248, 0.4) 0px 15px 40px; }
-
-section { max-width: 1100px; margin: auto; padding: 60px 20px; }
-
-h2 { font-size: 2rem; margin-bottom: 25px; border-left: 5px solid var(--primary); padding-left: 15px; }
-
-.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 22px; }
-
-.card { background: linear-gradient(180deg, #020617, var(--card)); padding: 25px; border-radius: 18px; box-shadow: rgba(0, 0, 0, 0.6) 0px 20px 40px; transition: transform 0.3s; }
-
-.card:hover { transform: translateY(-10px); }
-
-.card h3 { color: var(--primary); margin-bottom: 10px; }
-
-.card p { color: var(--muted); font-size: 0.95rem; }
-
-.skill { margin-bottom: 18px; }
-
-.bar { background: rgb(2, 6, 23); border-radius: 10px; overflow: hidden; margin-top: 6px; }
-
-.bar span { display: block; height: 10px; background: linear-gradient(90deg, var(--primary), #22d3ee); }
-
-footer { text-align: center; padding: 50px 20px; color: var(--muted); font-size: 0.95rem; }
-------MultipartBoundary--eZIt4KTKC0IzZarPkkqUxS1TbYl73oapCOebNcGutB------
+</body>
+</html>
