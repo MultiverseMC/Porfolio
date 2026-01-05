@@ -1,0 +1,143 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://sQo5lMT5CUDsUcf:0dqicz1RxWJmcoz@localhost:44800/storage/emulated/0/index.html
+Subject: Luciano Caraballo | Desarrollo Web
+Date: Mon, 5 Jan 2026 12:37:18 -0300
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--eZIt4KTKC0IzZarPkkqUxS1TbYl73oapCOebNcGutB----"
+
+
+------MultipartBoundary--eZIt4KTKC0IzZarPkkqUxS1TbYl73oapCOebNcGutB----
+Content-Type: text/html
+Content-ID: <frame-D82D5FD67C173A6FB1858A9641CDF0AB@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: http://sQo5lMT5CUDsUcf:0dqicz1RxWJmcoz@localhost:44800/storage/emulated/0/index.html
+
+<!DOCTYPE html><html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-d3eea9ee-75db-4e61-8c9e-7b6da9ab9ca0@mhtml.blink" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luciano Caraballo | Desarrollo Web</title>
+
+
+</head>
+
+<body>
+
+<header>
+  <h1>Luciano Caraballo</h1>
+  <p>Creo páginas web modernas que atraen clientes y venden tu idea</p>
+
+  <!-- BOTÓN FUNCIONAL -->
+  <a class="btn" href="https://wa.me/59899879692?text=Hola%20quiero%20una%20p%C3%A1gina%20web" target="_blank">
+     Quiero mi web
+  </a>
+
+  <p style="margin-top:20px;font-size:.95rem;color:var(--muted);">
+    Ideal para Instagram · Negocios · Proyectos personales
+  </p>
+</header>
+
+<section>
+  <h2>Sobre mí</h2>
+  <p style="max-width:800px;color:var(--muted);">
+    Soy desarrollador web enfocado en crear páginas modernas, rápidas y visualmente impactantes.
+    Diseño sitios ideales para negocios, marcas personales y proyectos nuevos, listos para
+    compartir por Instagram, WhatsApp o con clientes reales.
+  </p>
+</section>
+
+<section>
+  <h2>Lo que hago</h2>
+
+  <div class="skill">
+    Diseño Web Moderno
+    <div class="bar"><span style="width:95%"></span></div>
+  </div>
+
+  <div class="skill">
+    Landing Pages
+    <div class="bar"><span style="width:90%"></span></div>
+  </div>
+
+  <div class="skill">
+    Webs para Instagram
+    <div class="bar"><span style="width:85%"></span></div>
+  </div>
+</section>
+
+<section>
+  <h2>Proyectos</h2>
+
+  <div class="grid">
+    <div class="card" style="opacity: 1; transform: translateY(0px); transition: 0.6s;">
+      <h3>Página Web para Negocio</h3>
+      <p>Diseño profesional para presentar servicios y atraer clientes desde el primer vistazo.</p>
+    </div>
+
+    <div class="card" style="opacity: 1; transform: translateY(0px); transition: 0.6s;">
+      <h3>Landing Page Profesional</h3>
+      <p>Página de una sola vista ideal para vender una idea o mostrar un proyecto.</p>
+    </div>
+
+    <div class="card" style="opacity: 1; transform: translateY(0px); transition: 0.6s;">
+      <h3>Portfolio Personal</h3>
+      <p>Web moderna para destacar habilidades y generar confianza.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  📩 ¿Querés una web así?  
+  <br>Escribime y llevá tu idea a internet
+</footer>
+
+
+
+
+</body></html>
+------MultipartBoundary--eZIt4KTKC0IzZarPkkqUxS1TbYl73oapCOebNcGutB----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-d3eea9ee-75db-4e61-8c9e-7b6da9ab9ca0@mhtml.blink
+
+@charset "utf-8";
+
+:root { --bg: #020617; --card: #0f172a; --primary: #38bdf8; --text: #e5e7eb; --muted: #94a3b8; }
+
+* { margin: 0px; padding: 0px; box-sizing: border-box; font-family: system-ui, sans-serif; }
+
+body { background: radial-gradient(circle at center top, rgb(30, 41, 59), rgb(2, 6, 23)); color: var(--text); }
+
+header { text-align: center; padding: 90px 20px; }
+
+header h1 { font-size: 3rem; background-image: ; background-position-x: ; background-position-y: ; background-size: ; background-repeat: ; background-attachment: ; background-origin: ; background-color: ; background-clip: text; color: transparent; }
+
+header p { margin-top: 15px; font-size: 1.2rem; color: var(--muted); }
+
+.btn { display: inline-block; margin-top: 35px; padding: 15px 40px; background: linear-gradient(90deg, var(--primary), #22d3ee); color: rgb(2, 6, 23); border-radius: 40px; font-weight: 700; text-decoration: none; font-size: 1.1rem; transition: transform 0.2s, box-shadow 0.2s; }
+
+.btn:hover { transform: scale(1.06); box-shadow: rgba(56, 189, 248, 0.4) 0px 15px 40px; }
+
+section { max-width: 1100px; margin: auto; padding: 60px 20px; }
+
+h2 { font-size: 2rem; margin-bottom: 25px; border-left: 5px solid var(--primary); padding-left: 15px; }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 22px; }
+
+.card { background: linear-gradient(180deg, #020617, var(--card)); padding: 25px; border-radius: 18px; box-shadow: rgba(0, 0, 0, 0.6) 0px 20px 40px; transition: transform 0.3s; }
+
+.card:hover { transform: translateY(-10px); }
+
+.card h3 { color: var(--primary); margin-bottom: 10px; }
+
+.card p { color: var(--muted); font-size: 0.95rem; }
+
+.skill { margin-bottom: 18px; }
+
+.bar { background: rgb(2, 6, 23); border-radius: 10px; overflow: hidden; margin-top: 6px; }
+
+.bar span { display: block; height: 10px; background: linear-gradient(90deg, var(--primary), #22d3ee); }
+
+footer { text-align: center; padding: 50px 20px; color: var(--muted); font-size: 0.95rem; }
+------MultipartBoundary--eZIt4KTKC0IzZarPkkqUxS1TbYl73oapCOebNcGutB------
